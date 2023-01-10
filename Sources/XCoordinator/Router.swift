@@ -116,7 +116,7 @@ extension Router {
 
 }
 
-#if swift(>=5.5.2)
+#if swift(>=10.5.2) && canImport(_Concurrency)
 
 @available(iOS 13.0, tvOS 13.0, *)
 extension Router {
